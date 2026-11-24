@@ -1,0 +1,53 @@
+{
+  "route": "/v1/context",
+  "request": {
+    "query": "Agents of Chaos: We report an exploratory red-teaming study of autonomous language- model–powered agents deployed in a live"
+  },
+  "status": 200,
+  "latency_s": 0.292,
+  "error": null,
+  "timestamp": "2026-11-24T12:08:57.247502+00:00",
+  "response": {
+    "query": "Agents of Chaos: We report an exploratory red-teaming study of autonomous language- model–powered agents deployed in a live",
+    "contexts": [
+      {
+        "text": "Max Planck Institute for Biological Cybernetics 8 MIT 9 Tufts University 10 Carnegie Mellon University 11 Alter 12 Technion 13 Vector Institute   Abstract   We report an exploratory red-teaming study of autonomous language- model–powered agents deployed in a live laboratory environment with persistent memory, email accounts, Discord access, file systems, and shell execution. Over a two-week period, twenty AI researchers interacted with the agents under benign and adversarial conditions. Focusing on failures emerging from the integration of language models with autonomy, tool use, and multi-party communication, we document eleven representative case studies. Observed behaviors include unauthorized compliance with non-owners, disclosure of sensitive information, execution of destructive system-level actions, denial-of-service conditions, uncontrolled resource consumption, identity spoofing vulnerabilities, cross-agent propagation of unsafe practices, and partial system takeover. In several cases, agents reported task completion while the underlying system state contradicted those reports. We also report on some of the failed attempts. Our find- ings establish the existence of security-, privacy-, and governance-relevant vulnerabilities in realistic deployment settings. These behaviors raise un- resolved questions regarding accountability, delegated authority, and re- sponsibility for downstream harms, and warrant urgent attention from legal scholars, policymakers, and researchers across disciplines.",
+        "score": 0.6096345288598113,
+        "source": "119 - Agents of Chaos.pdf",
+        "page": 1
+      },
+      {
+        "text": "Preprint.   Agents of Chaos   Natalie Shapira1 Chris Wendler1 Avery Yen1   Gabriele Sarti1 Koyena Pal1 Olivia Floody2 Adam Belfki1   Alex Loftus1 Aditya Ratan Jannali2 Nikhil Prakash1 Jasmine Cui1   Giordano Rogers1 Jannik Brinkmann1 Can Rager2 Amir Zur3 Michael Ripa1   Aruna Sankaranarayanan8 David Atkinson1 Rohit Gandikota1 Jaden Fiotto-Kaufman1   EunJeong Hwang4,13 Hadas Orgad5 P Sam Sahil2 Negev Taglicht2 Tomer Shabtay2   Atai Ambus2 Nitay Alon6,7 Shiri Oron2 Ayelet Gordon-Tapiero6 Yotam Kaplan6   Vered Shwartz4,13 Tamar Rott Shaham8 Christoph Riedl1 Reuth Mirsky9   Maarten Sap10 David Manheim11,12 Tomer Ullman5 David Bau1   1 Northeastern University 2 Independent Researcher 3 Stanford University 4 University of British Columbia 5 Harvard University 6 Hebrew University 7 Max Planck Institute for Biological Cybernetics 8 MIT 9 Tufts University 10 Carnegie Mellon University 11 Alter 12 Technion 13 Vector Institute   Abstract   We report an",
+        "score": 0.5557374975910181,
+        "source": "119 - Agents of Chaos.pdf",
+        "page": 1
+      },
+      {
+        "text": "ChatEDA [123] is an agent developed for electronic design automation (EDA) to streamline the design process by integrating task planning, script gener- ation, and execution. CodeHelp [119] is an agent designed to assist students and developers in debug- ging and testing their code. Its features include pro- viding detailed explanations of error messages, sug- gesting potential fixes, and ensuring the accuracy of the code. Pentest [125] is a penetration testing tool based on LLMs, which can effectively identify common vulnerabilities, and interpret source code to develop exploits. D-Bot [122] utilizes the capa-Lei Wang et al. A Survey on Large Language Model based Autonomous Agents 25   Table 2 Representative applications of LLM-based autonomous agents.   Domain Work   Psychology TE [101], Akata et al. [102], Ziems et al. [104], Ma et al. [103]   Social Science   Political Science and Economy Argyle et al. [29], Horton [105], Ziems et al. [104]   Social Simulation Social Simulacra [80], Generative Agents [20], SocialAI School [108], AgentSims [34], S3 [78], Williams et al. [109], Li et al. [106], Chao et al. [107]   Jurisprudence ChatLaw [111], Blind Judgement [112]   Research Assistant Ziems et al. [104",
+        "score": 0.5195617255817262,
+        "source": "008 - A Survey on Large Language Model based Autonomous Agents.pdf",
+        "page": 24
+      },
+      {
+        "text": "Crucially, such agents can emulate nuanced individual behaviors, including maintaining person- ality traits [9–11], exhibiting self-awareness [12, 13], and expressing context-sensitive emotions [14, 15], thereby capturing the fluidity and depth of human-like reactions. With the ability to simulate realistic and coherent individual behaviors, LLM-powered agents offer a new tool for investigating cognition, personality, and decision-making across diverse and reproducible scenarios.   Social science, as the study of human behavior in social contexts, offers key insights into how societies function and evolve. Traditional methods, such as ques- tionnaires [16, 17], interviews [18, 19], and controlled experiments [20, 21], have long provided valuable insights, yet they are often costly, ethically constrained, and diffi- cult to scale or replicate. Agent-based modeling (ABM) emerged as a computational alternative, enabling in silico experiments on social phenomena by simulating inter- actions among rule-based agents [22–26]. However, most ABMs rely on heuristics or fixed equations, limiting their capacity to reflect the complexity and adaptability of real-world societies [27]. The rise of large language models offers a transformative opportunity: agents powered by LLMs can generate context-rich, expressive, and adap- tive behaviors, enabling simulations that integrate cognitive, emotional, and social dimensions.",
+        "score": 0.4996262009099828,
+        "source": "079 - Modeling Earth-Scale Human-Like Societies with One Billion Agents.pdf",
+        "page": 3
+      },
+      {
+        "text": "Conceptually, each agent is instantiated as a long-running service with an owner (a primary human operator), a dedicated machine (a sandboxed virtual machine with a persistent storage volume), and multiple communication surfaces (Discord and email) through which both owners and non- owners can interact with the agent.   We recruited twenty researchers to interact with the agents during a two-week exploratory period and encouraged them to probe, stress-test, and attempt to “break” the systems in adversarial ways. This was intended to match the types of situations publicly deployed agents will inevitably face. Participants targeted agentic-level safety limitations that arise from tool use, cross-session memory, multi-party communication, and delegated agency. Researchers developed a diverse set of stress tests, including impersonation attempts, social engineering, resource-exhaustion strategies, and prompt-injection pathways mediated by external artifacts and memory. This red-teaming style methodology is well-suited for discovering “unknown unknowns,” since demonstrating vulnerability often requires only a single concrete counterexample under realistic interaction conditions.   Across eleven case studies, we identified patterns of behavior that highlight the limitations of current agentic systems.",
+        "score": 0.4988908689902742,
+        "source": "119 - Agents of Chaos.pdf",
+        "page": 4
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "status": 200,
+      "latency_s": 0.292,
+      "error": null
+    }
+  ],
+  "from_cache": false
+}

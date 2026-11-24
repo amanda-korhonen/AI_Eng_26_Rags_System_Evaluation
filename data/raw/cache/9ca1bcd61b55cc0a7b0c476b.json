@@ -1,0 +1,53 @@
+{
+  "route": "/v1/context",
+  "request": {
+    "query": "In intelligent education, personalized mathematics question generation aims to produce mathematics questions that satisfy educational requirements while supporting adaptive assessment and learning. Existing LLM-based single-agent and multi-agent methods improve generation"
+  },
+  "status": 200,
+  "latency_s": 0.353,
+  "error": null,
+  "timestamp": "2026-11-24T12:08:56.529787+00:00",
+  "response": {
+    "query": "In intelligent education, personalized mathematics question generation aims to produce mathematics questions that satisfy educational requirements while supporting adaptive assessment and learning. Existing LLM-based single-agent and multi-agent methods improve generation",
+    "contexts": [
+      {
+        "text": "ALF Chat   Figure 3: Six examples of diverse applications built using AutoGen. Their conversation patterns show AutoGen’s flexibility and power.   A1: Math Problem Solving   Mathematics is a foundational discipline and the promise of leveraging LLMs to assist with math problem solving opens up a new plethora of applications and avenues for exploration, including per- sonalized AI tutoring, AI research assistance, etc. This section demonstrates how AutoGen can help develop LLM applications for math problem solving, showcasing strong performance and flexibility in supporting various problem-solving paradigms.   (Scenario 1) We are able to build a system for autonomous math problem solving by directly reusing two built-in agents from AutoGen. We evaluate our system and several alternative approaches, including open-source methods such as Multi-Agent Debate (Liang et al., 2023), LangChain Re- Act (LangChain, 2023), vanilla GPT-4, and commercial products ChatGPT + Code Interpreter, and ChatGPT + Plugin (Wolfram Alpha), on the MATH (Hendrycks et al., 2021) dataset and summarize the results in Figure 4a. We perform evaluations over 120 randomly selected level-5 problems and on the entire5 test dataset from MATH. The results show that the built-in agents from AutoGen al- ready yield better performance out of the box compared to the alternative approaches, even including the commercial ones.",
+        "score": 0.49854352400983465,
+        "source": "064 - AutoGen Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework.pdf",
+        "page": 6
+      },
+      {
+        "text": "Emergent au- tonomous scientific research capabilities of large lan- guage models. arXiv preprint arXiv:2304.05332, 2023   115. Kang Y, Kim J. Chatmof: An autonomous ai system for   predicting and generating metal-organic frameworks. arXiv preprint arXiv:2308.01423, 2023   116. Swan M, Kido T, Roland E, Santos R P d. Math agents: Computational infrastructure, mathematical embed- ding, and genomics. arXiv preprint arXiv:2307.02502, 2023   117. Drori I, Zhang S, Shuttleworth R, Tang L, Lu A, Ke E, Liu K, Chen L, Tran S, Cheng N, others . A neural network solves, explains, and generates university math problems by program synthesis and few-shot learning at human level. Proceedings of the National Academy of Sciences, 2022, 119(32): e2123433119   118. Chen M, Tworek J, Jun H, Yuan Q, Pinto H P d O, Kaplan J, Edwards H, Burda Y, Joseph N, Brockman G, others . Evaluating large language models trained on code. arXiv preprint arXiv:2107.03374, 2021   119.",
+        "score": 0.45262020207045245,
+        "source": "008 - A Survey on Large Language Model based Autonomous Agents.pdf",
+        "page": 38
+      },
+      {
+        "text": "88 + return perturbations 89 + 90 +def generate_problem_perturbations(problem_text, max_perturbations=3): 91 + \"\"\"Generate various perturbations of a mathematical problem\"\"\" 92 + all_perturbations = [] 93 + 94 + # Generate different types of perturbations 95 + all_perturbations.extend(create_notation_perturbations(problem_text)) 96 + all_perturbations.extend(create_phrasing_perturbations(problem_text)) 97 + all_perturbations.extend(create_formulation_perturbations(problem_text)) 98 + 99 + # Randomly sample up to max_perturbations   30Towards Execution-Grounded Automated AI Research   100 + if len(all_perturbations) > max_perturbations: 101 + all_perturbations = random.sample(all_perturbations, max_perturbations) 102 + 103 + return all_perturbations 104 + 105 +def sample_with_perturbations(prompts, answers, perturbation_ratio=0.3): 106 + \"\"\"Sample problems with perturbations mixed in\"\"\" 107 + perturbed_prompts = [] 108 + perturbed_answers = [] 109 + perturbation_metadata = [] 110 + 111 + for prompt, answer in zip(prompts, answers): 112 + # Always include original 113 +",
+        "score": 0.4475816522537288,
+        "source": "088 - Towards Execution-Grounded Automated AI Research.pdf",
+        "page": 30
+      },
+      {
+        "text": "Subhabrata Mukherjee, Arindam Mitra, Ganesh Jawahar, Sahaj Agarwal, Hamid Palangi, and Ahmed Awadallah. Orca: Progressive learning from complex explanation traces of gpt-4. arXiv preprint arXiv:2306.02707, 2023.   Vedant Shah, Dingli Yu, Kaifeng Lyu, Simon Park, Jiatong Yu, Yinghui He, Nan Rosemary Ke, Michael Mozer, Yoshua Bengio, Sanjeev Arora, et al. Ai-assisted generation of difficult math questions. arXiv preprint arXiv:2407.21009, 2024.   Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Xiao Bi, Haowei Zhang, Mingchuan Zhang, YK Li, Yang Wu, et al. Deepseekmath: Pushing the Limits of Mathematical Reasoning in Open Language Models. arXiv preprint arXiv:2402.03300, 2024. URL https://arxiv.org/abs/2402.03300.   Shubham Toshniwal, Wei Du, Ivan Moshkov, Branislav Kisacanin, Alexan Ayrapetyan, and Igor Gitman.",
+        "score": 0.44108189736650394,
+        "source": "125 - Autodata An agentic data scientist to create high quality synthetic data.pdf",
+        "page": 17
+      },
+      {
+        "text": "Additionally, it can communicate with humans and aids them in understanding and using mathematics. [117] utilize the capabilities of CodeX [118] to automatically solve and explain university-level mathematical problems, which can be used as education tools to teach students and re- searchers. CodeHelp [119] is an education agent for programming. It offers many useful features, such as setting course-specific keywords, monitoring stu- dent queries, and providing feedback to the sys- tem. EduChat [87] is an LLM-based agent designed specifically for the education domain. It provides personalized, equitable, and empathetic educational support to teachers, students, and parents through dialogue. FreeText [120] is an agent that utilizes LLMs to automatically assess students’ responses to open-ended questions and offer feedback.   3.3 Engineering   LLM-based autonomous agents have shown great potential in assisting and enhancing engineering research and applications. In this section, we re- view and summarize the applications of LLM-based agents in several major engineering domains.   Computer Science & Software Engineering: In the field of computer science and software en-   gineering, LLM-based agents offer potential for automating coding, testing, debugging, and doc- umentation generation [18, 23, 24, 126–128]. Chat- Dev [18] proposes an end-to-end framework, where multiple agent roles communicate and collaborate through natural language conversations to complete the software development life cycle.",
+        "score": 0.4372862174382087,
+        "source": "008 - A Survey on Large Language Model based Autonomous Agents.pdf",
+        "page": 24
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "status": 200,
+      "latency_s": 0.353,
+      "error": null
+    }
+  ],
+  "from_cache": false
+}

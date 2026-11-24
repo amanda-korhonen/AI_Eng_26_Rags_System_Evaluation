@@ -1,0 +1,53 @@
+{
+  "route": "/v1/context",
+  "request": {
+    "query": "2025-9-18 The Anatomy of a Personal Health Agent A. Ali Heydari1,∗, Ken Gu‡,∗, Vidya Srinivas‡,∗, Hong Yu1,∗, Zhihan Zhang‡, Yuwei Zhang‡, Akshay Paruchuri‡, Qian He1, Hamid Palangi1, Nova Hammerquist1, Ahmed"
+  },
+  "status": 200,
+  "latency_s": 0.342,
+  "error": null,
+  "timestamp": "2026-11-24T12:08:51.159061+00:00",
+  "response": {
+    "query": "2025-9-18 The Anatomy of a Personal Health Agent A. Ali Heydari1,∗, Ken Gu‡,∗, Vidya Srinivas‡,∗, Hong Yu1,∗, Zhihan Zhang‡, Yuwei Zhang‡, Akshay Paruchuri‡, Qian He1, Hamid Palangi1, Nova Hammerquist1, Ahmed",
+    "contexts": [
+      {
+        "text": "The full prompt is shown in Supplementary Information 17. Because the patient agent is grounded in an HPI extracted from retro- spective discharge summaries, one might argue that its responses may reflect a more structured account than verbatim, unprompted patient speech in real emergency departments. We therefore evaluated patient agent faithfulness and the absence of premature diagnostic informa- tion disclosure (including under adversarial prompting) as reported in Fig. 2 and its (non-)linearity in providing diagnostically relevant information throughout the course of the conversation.   Medical agent definition In addition to the patient agent, we developed MIRA, designed as a vir- tual physician, that maintains an interactive dialogue with the patient simulation agent and can—at every turn—invoke external tools for tasks such as laboratory and microbiology testing, imaging requests, medication ordering and other actions detailed in ‘Medical tools’. Each conversation begins with a structured initiation, where MIRA is prompted using the input ‘The patient you are now seeing has primary symptoms: {primary_symptom}’. The primary symptom is derived from the triage patient’s chief complaint, much as in a real-world setting where patients are assessed at a triage desk and report their reason for visit. Next, throughout the interaction, MIRA either generates an appropriate response to the patient or determines if external resources are required.",
+        "score": 0.45299059313436346,
+        "source": "083 - Towards autonomous medical artificial intelligence agents.pdf",
+        "page": 13
+      },
+      {
+        "text": "Patient agent generation is the cornerstone of doctor agent evolution because it can in principle provide an unlimited number of patients for training doctor agents. More importantly, we can easily control the distribution of patient agents in terms of gender, age, country, and disease, making it possible to simulate any patient cohort of interest.   Doctor Agent Evolution Given a patient agent, a doctor agent needs to make correct decisions on medical examination, diagnosis, and prescription of medications. Note that only the basic information, medical history, and symptoms of the patient agent are visible to the doctor agent. As our work uses proprietary LLMs as the base model of doctor agents, which are frozen during training and inference, we add two important modules to support agent evolution: medical case base and experience base.   As shown in Figure 4, after Kenneth Morgan describes his symptoms and submits his medical examination reports, Robert Thompson first retrieves similar cases from the medical case base. For example, the most similar one is case #05872, in which a patient agent named Jason Huddleston with similar medical history, symptoms, and examination reports was correctly diagnosed as Herpes Zoster. This case can serve as an important reference for Robert Thompson to diagnose the current patient agent. Then, Robert Thompson retrieves rules applicable to the current case from the experience base. For example, the most relevant rule indicates that people over the age of 50 are likely to contract Herpes Zoster.",
+        "score": 0.4489028470835631,
+        "source": "077 - Agent Hospital A Simulacrum of Hospital with Evolvable Medical Agents.pdf",
+        "page": 7
+      },
+      {
+        "text": "Recent studies show that LLM-powered agents are as strong as humans to some extent, as they can act in an environment, have their own memory, and know how to make use of external tools50. These advancements have been further extended to LLM-based multi-agent systems, which enhance reasoning and planning by simulating human activities and optimizing the collective power of multiple agents51.   In the medical domain, various research efforts in recent years have focused on building foundational medical models such as Google’s MedPalm series11, 52. Since 2023, there has also been a growing interest in developing medical agents. For instance, the MedAgents framework employs a multidisciplinary collaborative approach to enhance the performance of LLMs in zero-shot medical reasoning36, which highlights the versatility and utility of LLM agents in handling specialized terminology and complex reasoning in medical applications53. Recent studies are also exploring ways to enable medical agents to accomplish more complex tasks through collaboration38, 39. However, existing work lacks the integration of personalized memory for agents, limiting their capabilities to simple role-playing techniques to activate LLM functionalities. Consequently, these agents struggle to accumulate unique experience and evolve continuously during interactions, unlike human doctors. Compared with these studies, our study provides a new paradigm to train powerful medical agents.",
+        "score": 0.44557694420111,
+        "source": "077 - Agent Hospital A Simulacrum of Hospital with Evolvable Medical Agents.pdf",
+        "page": 9
+      },
+      {
+        "text": "Medical professional agents, which include doctors and nurses, have additional information about skills and duties.   3/29Figure 2. Agent Hospital simulates the whole closed cycle of treating illness. In this example, patient agent Kenneth Morgan falls ill and visits Agent Hospital. Triage nurse Katherine Li conducts an initial evaluation of Mr. Morgan’s symptoms and refers him to the dermatology department. Mr. Morgan then registers at the hospital’s counter and is subsequently arranged for a consultation with doctor agent Robert Thompson, who is a dermatologist. After undergoing the prescribed medical examination, Mr. Morgan receives a diagnosis and medication. He goes back home to rest and monitor the improvement of his condition. Mr. Morgan needs to go to Agent Hospital again if he fails to recover after several days.   For example, Robert Thompson is a male dermatologist agent with an age of 46. Proficient in performing skin surgeries, his duty is to diagnose and treat adult patients with a broad range of skin illnesses. In Agent Hospital, there are 42 doctor agents and four nurse agents. To simplify the simulation, we assume that medical professional agents will not get sick.   The simulation process is driven by events in which patient, nurse, and doctor agents get involved. There are eight main types of events in Agent Hospital:   1. Disease Onset. As shown in Figure 2, Kenneth Morgan wakes up and finds that his skin becomes red, painful, and blistered.",
+        "score": 0.44519664557920674,
+        "source": "077 - Agent Hospital A Simulacrum of Hospital with Evolvable Medical Agents.pdf",
+        "page": 3
+      },
+      {
+        "text": "An example illustrating how a doctor agent diagnoses a patient agent. Patient agents, diseases, symptoms, and medical examination results are generated by the simulacrum automatically. Doctor agents diagnose patent agents based on the medical data and update their medical case base or experience base.   6/29the basic information of the patient agent such as name, gender, and age. Learning from the medical knowledge base that people over the age 50 are more likely to contract Herpes Zoster, the large language model could set the age of the patient agent to 55. The model also generates the medical history by adhering to the fact that people who have had chickenpox are more likely to develop Herpes Zoster. Given the disease, basic information, and medical history, the model generates a list of symptoms for the patient agent. Finally, medical examination reports are automatically generated based on medical knowledge on Herpes Zoster. MedAgent-Zero further uses a quality control agent to ensure that the medical data of a generated patient agent adheres to medical knowledge base.   Patient agent generation is the cornerstone of doctor agent evolution because it can in principle provide an unlimited number of patients for training doctor agents. More importantly, we can easily control the distribution of patient agents in terms of gender, age, country, and disease, making it possible to simulate any patient cohort of interest.",
+        "score": 0.4421761629080727,
+        "source": "077 - Agent Hospital A Simulacrum of Hospital with Evolvable Medical Agents.pdf",
+        "page": 6
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "status": 200,
+      "latency_s": 0.342,
+      "error": null
+    }
+  ],
+  "from_cache": false
+}

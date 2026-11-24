@@ -1,0 +1,53 @@
+{
+  "route": "/v1/context",
+  "request": {
+    "query": "Autonomous AI scientists are beginning to reason, experiment, and collaborate with human researchers by coordinating data, computational tools, AI agents, and laboratory instruments. Yet, most agentic science systems remain difficult"
+  },
+  "status": 200,
+  "latency_s": 0.305,
+  "error": null,
+  "timestamp": "2026-11-24T12:08:55.190645+00:00",
+  "response": {
+    "query": "Autonomous AI scientists are beginning to reason, experiment, and collaborate with human researchers by coordinating data, computational tools, AI agents, and laboratory instruments. Yet, most agentic science systems remain difficult",
+    "contexts": [
+      {
+        "text": "Scientific-agent research demonstrates why useful work must include executable methods and artifacts. ChemCrow augments a language model with chemistry tools for synthesis, drug discovery, and materials tasks (Bran et al., 2023). The AI Scientist joins idea generation, code execution, experimentation, visualization, paper writing, and simulated review in an automated research loop (Lu et al., 2024); its successor introduces agentic tree search and a dedicated experiment manager (Yamada et al., 2025). The AI co-scientist uses an asynchronous coalition of specialized agents to generate, debate, rank, and evolve scientific hypotheses under researcher guidance (Gottweis et al., 2025). These systems emphasize different parts of the scientific process. Apodex instead scales agentic intelligence in a general-purpose model and execution runtime rather than targeting a domain-specific laboratory agent: scientific workflows are a primary use case, but the same file–search–code policy is also evaluated on software and professional work.   Multi-agent coordination and test-time scaling. AutoGen coordinates agents through programmable conversations (Wu et al., 2023); MetaGPT and ChatDev organize specialized roles around structured software-development workflows (Hong et al., 2023; Qian et al., 2023); and AgentVerse studies collabo- rative groups and emergent behavior (Chen et al., 2023).",
+        "score": 0.5879223033025375,
+        "source": "111 - Apodex 1.1 Scaling Agentic Intelligence for Complex Work.pdf",
+        "page": 29
+      },
+      {
+        "text": "We conclude by discussing four design principles for more robust AI-scientist   systems, implications for autonomous scientific discovery, and we release all prompts, ar-   tifacts, and outputs at https://github.com/Lossfunk/ai-scientist-artefacts-v1.   1 Problem Definition and System Overview   The question we set out with was: could state-of-the-art reasoning LLMs go from a research   idea to a research paper with a high degree of autonomy, minimal code scaffolding, and the most   basic tools? Various AI Scientist systems proposed in research papers already relied on a high   1   ar X   iv :2   60 1.   03 31   5v 1   [ cs   .L G   ] 6   J an   2 02   6         https://github.com/Lossfunk/ai-scientist-artefacts-v1        https://arxiv.org/abs/2601.03315v1degree of domain-specific pre-definition of the workflow or framing the problem statement in a   system-specific way. Tree-search systems like Sakana’s [1] would have required complex meta-   orchestration, contradicting our minimal scaffolding goal. Similarly, Google’s AlphaEvolve   system [2] requires a clear verification metric defined by a human expert in advance.",
+        "score": 0.5831431228630976,
+        "source": "113 - Why LLMs Aren't Scientists Yet Lessons from Four Autonomous Research Attempts.pdf",
+        "page": 1
+      },
+      {
+        "text": "This   comprehensive logging enables the two-fold evaluation framework we mention in Section 4.   5 Discussion and Broader Implications   Complete autonomy in scientific discovery currently is only in the future, not merely from a   capability standpoint, but also from a human preference standpoint. Even with the goal of   maximum autonomy, we still relied on human intervention at key points. These included idea   review, paper writing, and meta-prompting during experiment execution. This pattern emerges   consistently across existing AI scientist systems. Sakana’s approach required researchers to   select 3 promising ideas from 40 AI-generated concepts [1]. Similarly, Google’s co-scientist   system requires scientist-specified research goals as the entry point [4]. Domain experts will   most likely remain involved to nudge, course-correct, and verify.   Though major labs like OpenAI are entering AI for scientific discovery, they explicitly recog-   nize the need for human expertise, seeking to hire “world-class academics” who are “completely   AI-pilled” to work alongside AI models [13]. This hiring strategy reinforces the current goal   of creating agents and tools for effective human-LLM collaboration rather than autonomous   scientists.",
+        "score": 0.5639768674639826,
+        "source": "113 - Why LLMs Aren't Scientists Yet Lessons from Four Autonomous Research Attempts.pdf",
+        "page": 15
+      },
+      {
+        "text": "Additionally, we enhance the AI reviewer component by integrating a Vision-Language Model (VLM) feedback loop for iterative refinement of content and aesthetics of the figures. We evaluated The AI Scientist-v2 by submitting three fully autonomous manuscripts to a peer-reviewed ICLR workshop. Notably, one manuscript achieved high enough scores to exceed the average human acceptance threshold, marking the first instance of a fully AI-generated paper successfully navigating a peer review. This accomplishment highlights the growing capability of AI in conducting all aspects of scientific research. We anticipate that further advancements in autonomous scientific discovery technologies will profoundly impact human knowledge generation, enabling unprecedented scalability in research productivity and significantly accelerating scientific breakthroughs, greatly benefiting society at large. We have open-sourced the code at https://github.com/SakanaAI/AI-Scientist-v2 to foster the future development of this transformative technology. We also discuss the role of AI in science, including AI safety.   1. Introduction Automated scientific discovery empowered by artificial intelligence (AI) has garnered considerable attention in recent years (Cornelio et al., 2023; Gil et al., 2014; King et al., 2009; Kitano, 2021; Wang et al., 2023; Xu et al., 2021). The development of end-to-end frameworks capable of autonomously formulating hypotheses, performing experiments, analyzing results, and authoring manuscripts could fundamentally transform the scientific process.",
+        "score": 0.5588873165492741,
+        "source": "084 - The AI Scientist-v2 Workshop-Level Automated Scientific Discovery via Agentic Tree Search.pdf",
+        "page": 1
+      },
+      {
+        "text": "The role of human researchers can shift from laborious experimentation to the high-level cognitive tasks of formulating valuable scientific questions and providing strategic direction, thereby leveraging the AI for rapid, exhaustive exploration. To make the AI a more capable partner, future work should focus on key enhancements: developing simulated discovery environments to accel- erate learning via reinforcement, creating frameworks for integrating feedback from the scientific community, and ultimately, bridging the gap to the physical sciences through robotics.   5 CONCLUSION   This work presents the first large-scale empirical evidence that an autonomous AI can achieve pro- gressively, SOTA-surpassing progress on modern scientific frontiers. We introduced DeepScientist, a goal-oriented system achieving end-to-end autonomy from ideation to real progress, which learns by synthesizing human knowledge with its own findings from iteration of trials. Results across mul- tiple domains serves to accelerate the progress of real-world scientific discovery, providing a crucial foundation. Our findings can signal a foundational shift in AI research, heralding an era where the pace of discovery is no longer solely dictated by the cadence of human thought.   ETHICS STATEMENT   The development of DeepScientist, an autonomous system capable of advancing scientific frontiers, carries profound ethical responsibilities. Our primary goal is to accelerate discovery for the benefit of humanity, but we recognize the potential for misuse. The most significant risks include the application of this technology to advance dangerous research and the potential degradation of the academic ecosystem.",
+        "score": 0.5570951598726637,
+        "source": "085 - DeepScientist Advancing Frontier-Pushing Scientific Findings Progressively.pdf",
+        "page": 10
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "status": 200,
+      "latency_s": 0.305,
+      "error": null
+    }
+  ],
+  "from_cache": false
+}

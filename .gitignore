@@ -1,3 +1,10 @@
+# The assignment 2
+assignment-2.md
+
+# Ignore the data files
+data/papers/
+data/meta/text/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

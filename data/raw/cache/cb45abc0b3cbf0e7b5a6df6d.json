@@ -1,0 +1,53 @@
+{
+  "route": "/v1/context",
+  "request": {
+    "query": "2026-07-16 AgentSociety 2: An Integrated Research Environment for Executable Social Science Jinghua Piao1†, Jun Zhang1†, Haoyu Huang1, Keming Zhang1, Jing Yi Wang1, Xinran Zhao1, Songwei Li1, Boyuan Sun1, Jiayi Chang1,"
+  },
+  "status": 200,
+  "latency_s": 0.316,
+  "error": null,
+  "timestamp": "2026-11-24T12:08:49.180719+00:00",
+  "response": {
+    "query": "2026-07-16 AgentSociety 2: An Integrated Research Environment for Executable Social Science Jinghua Piao1†, Jun Zhang1†, Haoyu Huang1, Keming Zhang1, Jing Yi Wang1, Xinran Zhao1, Songwei Li1, Boyuan Sun1, Jiayi Chang1,",
+    "contexts": [
+      {
+        "text": "Large language models empowered agent-based modeling and simulation: A survey and perspectives. Humanities and Social   Sciences Communications 11, 1 (2024), 1–24. [22] Dawei Gao, Zitao Li, Xuchen Pan, Weirui Kuang, Zhijian Ma, Bingchen Qian,   Fei Wei, Wenhao Zhang, Yuexiang Xie, Daoyuan Chen, Liuyi Yao, Hongyi Peng, Zeyu Zhang, Lin Zhu, Chen Cheng, Hongzhu Shi, Yaliang Li, Bolin Ding, and Jingren Zhou. 2024. AgentScope: A Flexible yet Robust Multi-Agent Platform. arXiv:2402.14034 [cs.MA] https://arxiv.org/abs/2402.14034   [23] Pratik Ghosh and Sean Rintel. 2025. YES AND: A generative AI multi-agent framework for enhancing diversity of thought in individual ideation for problem- solving through confidence-based agent turn-taking. In Proceedings of the Ex-   tended Abstracts of the CHI Conference on Human Factors in Computing Systems. 1–13.   [24] Diego Gómez-Zará, Leslie A DeChurch, and Noshir S Contractor. 2020. A taxon- omy of team-assembly systems: Understanding how people use technologies to   form teams.",
+        "score": 0.4983352010637984,
+        "source": "076 - Simulating Teams with LLM Agents Interactive 2D Environments for Studying Human-AI Dynamics.pdf",
+        "page": 21
+      },
+      {
+        "text": "To further ac- celerate the process, we design a performance predictor that uses in-context sur- rogate models to skip unpromising agent designs. Extensive experiments across six benchmarks, covering the diverse scenarios of web, embodied, tool use and game applications, show that AgentSquare substantially outperforms hand-crafted agents, achieving an average performance gain of 17.2% against best-known hu- man designs. Moreover, AgentSquare can generate interpretable design insights, enabling a deeper understanding of agentic architecture and its impact on task performance. We believe that the modular design space and AgentSquare search framework offer a platform for fully exploiting the potential of prior successful designs and consolidate the collective efforts of research community. Code repo is available at https://github.com/tsinghua-fib-lab/AgentSquare.   1 INTRODUCTION   The past few years have witnessed remarkable progress in the development of Large Language Mod- els (LLMs) (Achiam et al., 2023; Touvron et al., 2023), giving rise to the proliferation of numer- ous agentic systems (Weng, 2023; Shen et al., 2024). For example, “chain-of-thought” prompting has unlocked the general-purpose reasoning capabilities of LLMs (Wei et al., 2022), and memory mechanisms have been proven effective in simulating human behavioiur (Park et al., 2023).",
+        "score": 0.48289888727735975,
+        "source": "049 - AgentSquare Automatic LLM Agent Search in Modular Design Space.pdf",
+        "page": 1
+      },
+      {
+        "text": "Feb. 2024. doi: 10.48550/arXiv.2402.19446. url: http://arxiv.org/abs/2402.19446 (visited on 05/15/2025).   [44] Agashe, S. et al. Agent S: An Open Agentic Framework that Uses Computers Like a Human. 2024. arXiv: 2410.08164 [cs.AI]. url: https://arxiv.org/abs/2410.08164.   [45] K2-Agent. K2-Agent: Co-Evolving Know-What and Know-How for Hierarchical Mobile Device Control. GitHub Repository. Accessed: 2025-10-16. 2025. url: https://github.com/k2-agent/k2-agent.   [46] Pan, J. et al. Autonomous Evaluation and Refinement of Digital Agents. arXiv:2404.06474 [cs]. Oct. 2024. doi: 10.48550/arXiv.2404.06474. url: http://arxiv.org/abs/2404.06474 (visited on 05/15/2025).   [47] Shinn, N. et al.",
+        "score": 0.4818170607510161,
+        "source": "130 - Surfer 2 The Next Generation of Cross-Platform Computer Use Agents.pdf",
+        "page": 15
+      },
+      {
+        "text": "URL https://arxiv.org/abs/2411.11581. arXiv:2411.11581.   [30] Guo, X. et al. Embodied LLM agents learn to cooperate in organized teams (2024). URL https://arxiv.org/abs/2403.12482. arXiv:2403.12482.   [31] Vallinder, A. & Hughes, E. Cultural evolution of cooperation among llm agents (2024). URL https://arxiv.org/abs/2412.10270. arXiv:2412.10270.   [32] Piao, J. et al. Agentsociety: Large-scale simulation of llm-driven generative agents advances understanding of human behaviors and society (2025). URL https: //arxiv.org/abs/2502.08691. arXiv:2502.08691.   [33] Zhang, X. et al. Socioverse: A world model for social simulation powered by llm agents and a pool of 10 million real-world users (2025). URL https://arxiv.org/ abs/2504.10157. arXiv:2504.10157.   [34] Yu, C. et al. Towards more accurate us presidential election via multi-step reason- ing with large language models (2024).",
+        "score": 0.48023865008906214,
+        "source": "079 - Modeling Earth-Scale Human-Like Societies with One Billion Agents.pdf",
+        "page": 27
+      },
+      {
+        "text": "Personality and team performance: a meta-analysis. European Journal of Personality: Published for the European Association of Personality   Psychology 20, 5 (2006), 377–396. [77] Jinghua Piao, Yuwei Yan, Jun Zhang, Nian Li, Junbo Yan, Xiaochong Lan, Zhi-   hong Lu, Zhiheng Zheng, Jing Yi Wang, Di Zhou, et al. 2025. AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Under- standing of Human Behaviors and Society. arXiv preprint arXiv:2502.08691   (2025). [78] Iyad Rahwan, Manuel Cebrian, Nick Obradovich, Josh Bongard, Jean-François   Bonnefon, Cynthia Breazeal, Jacob W Crandall, Nicholas A Christakis, Iain D Couzin, Matthew O Jackson, et al. 2019. Machine behaviour. Nature 568, 7753 (2019), 477–486.   [79] William Rand and Christian Stummer. 2021. Agent-based modeling of new product market diffusion: an overview of strengths and criticisms. Annals of Operations Research 305, 1 (2021), 425–447.",
+        "score": 0.47783935656086324,
+        "source": "076 - Simulating Teams with LLM Agents Interactive 2D Environments for Studying Human-AI Dynamics.pdf",
+        "page": 22
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "status": 200,
+      "latency_s": 0.316,
+      "error": null
+    }
+  ],
+  "from_cache": false
+}

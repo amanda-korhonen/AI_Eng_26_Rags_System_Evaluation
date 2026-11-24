@@ -1,0 +1,53 @@
+{
+  "route": "/v1/context",
+  "request": {
+    "query": "Building effective agents: Engineering at Anthropic Building effective agents We've worked with dozens of teams building LLM agents"
+  },
+  "status": 200,
+  "latency_s": 0.306,
+  "error": null,
+  "timestamp": "2026-11-24T12:08:43.178444+00:00",
+  "response": {
+    "query": "Building effective agents: Engineering at Anthropic Building effective agents We've worked with dozens of teams building LLM agents",
+    "contexts": [
+      {
+        "text": "Engineering at Anthropic   Building effective agents   We've worked with dozens of teams building LLM agents across   industries. Consistently, the most successful implementations   use simple, composable patterns rather than complex   frameworks.   Published Dec 19, 2024   Note: Much of the tooling landscape described in this post has changed since   December 2024. For our current approach, see how we built Claude Managed Agents   and the Managed Agents documentation.   Over the past year, we've worked with dozens of teams building large language model   (LLM) agents across industries. Consistently, the most successful implementations   weren't using complex frameworks or specialized libraries. Instead, they were   building with simple, composable patterns.         https://www.anthropic.com/engineering        https://www.anthropic.com/engineering/managed-agents        https://platform.claude.com/docs/en/managed-agents/overview        https://platform.claude.com/docs/en/managed-agents/overview        https://www.anthropic.com/In this post, we share what we’ve learned from working with our customers and   building agents ourselves, and give practical advice for developers on building   effective agents.   What are agents?   \"Agent\" can be defined in several ways. Some customers define agents as fully   autonomous systems that operate independently over extended periods, using   various tools to accomplish complex tasks.",
+        "score": 0.7959603669312496,
+        "source": "034 - Building effective agents.pdf",
+        "page": 1
+      },
+      {
+        "text": "A practical   guide to   building agentsContents   What is an agent? 4 When should you build an agent? 5 Agent design foundations 7 Guardrails 24 Conclusion 32   2 Practical guide to building agentsIntroduction   Large language models are becoming increasingly capable of handling complex, multi-step tasks. Advances in reasoning, multimodality, and tool use have unlocked a new category of LLM-powered systems known as agents.   This guide is designed for product and engineering teams exploring how to build their first agents, distilling insights from numerous customer deployments into practical and actionable best practices. It includes frameworks for identifying promising use cases, clear patterns for designing agent logic and orchestration, and best practices to ensure your agents run safely, predictably,   and effectively.    After reading this guide, you’ll have the foundational knowledge you need to confidently start building your first agent.   3 A practical guide to building agentsWhat is an agent? While conventional software enables users to streamline and automate workflows, agents are able to perform the same workflows on the users’ behalf with a high degree of independence.   Agents are systems that independently accomplish tasks on your behalf.   A workflow is a sequence of steps that must be executed to meet the user’s goal, whether that's resolving a customer service issue, booking a restaurant reservation, committing a code change,   or generating a report.",
+        "score": 0.600866716785404,
+        "source": "033 - A practical guide to building agents.pdf",
+        "page": 1
+      },
+      {
+        "text": "Examples where agents are useful:   The following examples are from our own implementations:   A coding Agent to resolve SWE-bench tasks, which involve edits to many files   based on a task description;         https://www.anthropic.com/research/swe-bench-sonnetOur “computer use” reference implementation, where Claude uses a computer to   accomplish tasks.   High-level flow of a coding agent   Combining and customizing these patterns   These building blocks aren't prescriptive. They're common patterns that developers   can shape and combine to fit different use cases. The key to success, as with any LLM   features, is measuring performance and iterating on implementations. To repeat: you   should consider adding complexity only when it demonstrably improves outcomes.   Summary   Success in the LLM space isn't about building the most sophisticated system. It's   about building the right system for your needs. Start with simple prompts, optimize         https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demothem with comprehensive evaluation, and add multi-step agentic systems only when   simpler solutions fall short.   When implementing agents, we try to follow three core principles:   1. Maintain simplicity in your agent's design.   2. Prioritize transparency by explicitly showing the agent’s planning steps.   3. Carefully craft your agent-computer interface (ACI) through thorough tool   documentation and testing.",
+        "score": 0.5765147207807153,
+        "source": "034 - Building effective agents.pdf",
+        "page": 10
+      },
+      {
+        "text": "Meanwhile, NLSOM [100],leverages natural language collabo- ration between agents, dynamically adjusting roles, tasks, and relationships based on feedback to solve problems beyond the scope of a single agent.   Remark. Upon comparing the aforementioned strate- gies for agent capability acquisition, we can find that the fine-tuning method improves the agent ca- pability by adjusting model parameters, which can incorporate a large amount of task-specific knowl- edge, but is only suitable for open-source LLMs. The method without fine-tuning usually enhances the agent capability based on delicate prompting strategies or mechanism engineering. They can be used for both open- and closed-source LLMs. However, due to the limitation of the input context window of LLMs, they cannot incorporate too much task information. In addition, the designing spaces of the prompts and mechanisms are extremely large, which makes it not easy to find optimal solutions.   In the above sections, we have detailed the con- struction of LLM-based agents, where we focus on two aspects including the architecture design and ca- pability acquisition. We present the correspondence between existing work and the above taxonomy in Table 1.",
+        "score": 0.547652838205222,
+        "source": "008 - A Survey on Large Language Model based Autonomous Agents.pdf",
+        "page": 21
+      },
+      {
+        "text": "LLM agents with several LLM-centric functional modules including planning (Hao et al., 2023; Zeng et al., 2024; Shao et al., 2025), reasoning (Wei et al., 2022; Yao et al., 2024; Shang et al., 2024; Xu et al., 2025), using tools (Shen et al., 2024; Schick et al., 2024), and monitoring memory (Wang et al., 2024a; Park et al., 2023), greatly enhancing the capabilities of LLM agents. Along with the improvement of the single agent, there’s another line of work trying to build more advanced multi- agent systems by strategically organizing individual agents for both simulation (Li et al., 2023; Chen et al., 2023) and targeted task solving (Qian et al., 2024; Chen et al., 2024b; Li et al., 2024b). The emergence of more and more sophisticated agent produces remarkable performance improvement, however, their architectures and codebases differ greatly with each other.",
+        "score": 0.5438103320817678,
+        "source": "049 - AgentSquare Automatic LLM Agent Search in Modular Design Space.pdf",
+        "page": 10
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "status": 200,
+      "latency_s": 0.306,
+      "error": null
+    }
+  ],
+  "from_cache": false
+}

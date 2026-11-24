@@ -1,0 +1,53 @@
+{
+  "route": "/v1/context",
+  "request": {
+    "query": "Despite the success in speciﬁc scenarios, exist- ing foundation agents still struggle to generalize across various virtual scenarios, mainly due to the dramatically different encapsulations of environ- ments with manually"
+  },
+  "status": 200,
+  "latency_s": 0.293,
+  "error": null,
+  "timestamp": "2026-11-24T12:08:57.909743+00:00",
+  "response": {
+    "query": "Despite the success in speciﬁc scenarios, exist- ing foundation agents still struggle to generalize across various virtual scenarios, mainly due to the dramatically different encapsulations of environ- ments with manually",
+    "contexts": [
+      {
+        "text": "This specialization yields mastery but brittle intelligence with limited abstraction, weak transfer, and poor adaptability to the ambiguity and diversity inherent in open-world scenarios.   A promising path to broader generalization is to ground agents in natural language, leveraging it as a universal medium for knowledge and capabilities across modalities and domains. The recent success of large language foundation models [1, 27, 33, 71] reinforces this view through their superior common-sense understanding and reasoning. These models have begun to extend beyond static text processing into interactive environments such as robotics [3, 20, 35, 93] and video games [29, 70, 75, 78]. While these agents have yet to achieve human-level performance in accuracy and efficiency, these developments signal a promising direction for building versatile, language-grounded agents capable of perception, reasoning and acting in complex worlds.   In this work, we take a step toward this goal by exploring the recipe for building generalist agents in 3D open-world environments. We systematically summarize the six core challenges in achieving this goal:   • Scalable Environments. The selection and design of environments that are both rich and diverse, providing compositional dynamics that challenge agents to interact, learn, and generalize, while remaining standardized, scalable, and reproducible [8, 9, 14, 62, 70].   • Multimodal Perception.",
+        "score": 0.5196266244123807,
+        "source": "054 - Lumine An Open Recipe for Building Generalist Agents in 3D Open Worlds.pdf",
+        "page": 3
+      },
+      {
+        "text": "Figure 4: Ablation study and model generalization of SUPERVISORAGENT. (a) Ablation study on challenging GAIA tasks, dissecting the distinct contributions of each module to the framework’s overall efficiency and robustness. (b) Validation of model-agnosticism, showing that SUPERVISORAGENT consistently delivers token savings across diverse foundation models.   accuracy drops, confirming their necessity for robustness. This underscores a synergistic design: while Purification minimizes cost, Correction and Guidance ensure task success, justifying their marginal overhead. These benefits are particularly pronounced on high-cost tasks (see Appendix A.4.2).   MAS-Agnostic generalization. To verify MAS-agnostic feature of SUPERVISORAGENT, we integrate SUPERVISORAGENT into two distinct multi-agent system frameworks: AWorld (Xie et al., 2025) and OAgents (Zhu et al., 2025), and evaluate their performance on the subset of GAIA benchmark(top-10 most token-intensive tasks per GAIA level). The results, presented in Table 4, indicate that SUPERVISORAGENT consistently enhances the performance of both frameworks, underscoring its versatility and effectiveness across different MAS architectures.   Specifically, integrated with AWorld (Xie et al., 2025), our SMAS(AWorld) achieved superior average accuracy over both the original AWorld (without Guard) and the Guard-enabled version.",
+        "score": 0.4759943293369655,
+        "source": "061 - Stop Wasting Your Tokens Towards Efficient Runtime Multi-Agent Systems.pdf",
+        "page": 9
+      },
+      {
+        "text": "Current environments for evaluate agents tend to over-simplify real-world situations. As a result, the functionality of many environments is a limited version of their real-world counterparts, leading to a lack of task diversity (Shi et al., 2017; Anderson et al., 2018; Gordon et al., 2018; Misra et al., 2016; Shridhar et al., 2020; 2021; Yao et al., 2022a). In addition, these simplifications often lower the complexity of tasks as compared to their execution in the real world (Puig et al., 2018; Shridhar et al., 2020; Yao et al., 2022a). Finally, some environments are presented as a static resource (Shi et al., 2017; Deng et al., 2023) where agents are confined to accessing only those states that were previously cached during data collection, thus limiting the breadth and diversity of exploration. For evaluation, many environments focus on comparing the textual surface form of the predicted   ∗Lead contributors.",
+        "score": 0.4743729109496141,
+        "source": "156 - WebArena A Realistic Web Environment for Building Autonomous Agents.pdf",
+        "page": 1
+      },
+      {
+        "text": "In this section, we further demonstrate the transferability and generalizability of the discovered agents. To demonstrate the generalizability of the invented building blocks and de-   7Published as a conference paper at ICLR 2025   sign patterns, we transfer discovered agents from the MGSM (Math) domain to both math and non-math domains to test their ability to generalize across different tasks. We evaluate the top 3 agents from MGSM by transferring them to (1) popular math domains: GSM8K (Cobbe et al., 2021), GSM-Hard (Gao et al., 2023), and (2) non-math domains: MMLU (Multi-task) and DROP (Reading Comprehension), as detailed in Section 4.2. As shown in Table 2, Meta Agent Search con- sistently outperforms the baselines. Notably, our agents improve accuracy by 25.9% on GSM8K and 13.2% on GSM-Hard compared to the baselines when transferring within math domains. More surprisingly, we find that agents discovered in the math domain can also be transferred to non-math domains. While their performance does not fully match agents specifically designed for the target domains, they still outperform state-of-the-art hand-designed baselines. More results of transfers across domains are shown in Appendix A.",
+        "score": 0.46948864035131416,
+        "source": "046 - Automated Design of Agentic Systems.pdf",
+        "page": 7
+      },
+      {
+        "text": "These insights are consistent with findings that LLMs can struggle to reliably simulate distinct person- alities and maintain behavior aligned with those personas over time (e.g., an agent claiming to be extroverted but behaving introverted [109]). In our study, users described a similar gap where “there’s clear coordination between them [the agents], but movements some-   times appeared more random” (P06). A key challenge is ensuring that agents maintain personality-consistent, context-appropriate decisions over time. LLM-driven agents can default to generic re- sponses, which participants noticed as a limitation.   Users also highlighted scalability concerns. Most users noticed delays when generating agents and advancing simulation compared to traditional tools (e.g., P08, P01). Experts tended to accept the wait (P06), but novices who were less familiar with the underlying com- plexity found it frustrating. The observed latency has implications for scalability, where larger teams and longer runs can become pro- hibitively slow and costly (e.g., our five-agent simulations on highly complex maps required, on average, 12 hours to complete), aligning with the realities of other simulation systems (e.g., multi-day runs to complete their simulation in [74]). Although LLM-based agents offer richer, more flexible behavior, they trade off speed relative to traditional, math-based agent models. Addressing this remains an open system challenge.",
+        "score": 0.4664375312874995,
+        "source": "076 - Simulating Teams with LLM Agents Interactive 2D Environments for Studying Human-AI Dynamics.pdf",
+        "page": 19
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "status": 200,
+      "latency_s": 0.293,
+      "error": null
+    }
+  ],
+  "from_cache": false
+}

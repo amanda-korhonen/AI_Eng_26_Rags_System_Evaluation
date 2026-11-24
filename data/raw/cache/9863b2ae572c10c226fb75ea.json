@@ -1,0 +1,53 @@
+{
+  "route": "/v1/context",
+  "request": {
+    "query": "AI Agent Traps: AI Agent Traps Matija Franklin1, Nenad Tomašev1, Julian Jacobs1, Joel Z. Leibo1 and Simon Osindero1"
+  },
+  "status": 200,
+  "latency_s": 0.333,
+  "error": null,
+  "timestamp": "2026-11-24T12:09:04.294665+00:00",
+  "response": {
+    "query": "AI Agent Traps: AI Agent Traps Matija Franklin1, Nenad Tomašev1, Julian Jacobs1, Joel Z. Leibo1 and Simon Osindero1",
+    "contexts": [
+      {
+        "text": "AI Agent Traps Matija Franklin1, Nenad Tomašev1, Julian Jacobs1, Joel Z. Leibo1 and Simon Osindero1 1Google DeepMind   As autonomous AI agents increasingly navigate the web, they face a novel challenge: the information environment itself. This gives rise to a critical vulnerability we refer to as \"AI Agent Traps\", i.e. adversarial content designed to manipulate, deceive, or exploit visiting agents. In this paper, we introduce the first known systematic framework for understanding this emerging threat. We break down how these traps work, identifying six types of attack: Content Injection Traps that exploit the gap between human perception, machine parsing, and dynamic rendering; Semantic Manipulation Traps, which corrupt an agent’s reasoning and internal verification processes; Cognitive State Traps, which target an agent’s long-term memory, knowledge bases, and learned behavioural policies; Behavioural Control Traps, which hijack an agent’s capabilities to force unauthorised actions; Systemic Traps, which use agent interaction to create systemic failure, and Human-in-the-Loop Traps, which exploit cognitive biases to influence a human overseer. This research is not specific to any particular agent or model. By mapping this new attack surface, we identify critical gaps in current defences and propose a research agenda that could secure the entire agent ecosystem.",
+        "score": 0.6765012043659149,
+        "source": "164 - AI Agent Traps.pdf",
+        "page": 1
+      },
+      {
+        "text": "Benchmarking and Red Teaming. Finally, a   critical deficit persists: many categories of agent traps identified in this paper currently lack stan- dardised benchmarks. Without systematic evalu- ation, the robustness of deployed agents against these threats remains unknown. Closing this gap is an urgent priority. We call on the research community to develop comprehensive evaluation suites and automated red-teaming methodologies that can probe these vulnerabilities at scale, and on industry to adopt them as standard practice before deploying agents in high-stakes environ- ments.   Conclusions   As AI agents become autonomous consumers of web content, the threat of environmental ma- nipulation through AI Agent Traps emerges as a critical security challenge. This paper has pro- vided a systematic framework for this threat, dis- tinguishing between traps that target percep- tion (Content Injection), reasoning (Semantic Manipulation), memory and learning (Cognitive State), action (Behavioural Control), multi-agent dynamics (Systemic Traps), and the human over- seer (Human-in-the-Loop Traps). Our analy- sis highlights the unique vulnerabilities created when agents act upon external, uncontrolled data sources at inference time. Mitigating these risks demands a coordinated   effort, ranging from the technical hardening of   16AI Agent Traps   individual agents to the development of new ecosystem-level standards.",
+        "score": 0.6618146315678398,
+        "source": "164 - AI Agent Traps.pdf",
+        "page": 16
+      },
+      {
+        "text": "However, none of these fields has yet provided a unified account of how such tech- niques combine when the target is an autonomous   2AI Agent Traps   agent operating on the open agentic web. The framework presented in the following section aims to address this gap.   Framework of Agent Traps   We propose a framework categorising agent traps based on the component of the agent’s functional architecture they target (see Table 1). This frame- work distinguishes six classes of attack: Content Injection Traps, Semantic Manipulation Traps, Cog- nitive State Traps, Behavioural Control Traps, Sys- temic Traps, and Human-in-the-Loop Traps. In practice, some of these traps may overlap, as cer- tain attacks may employ multiple mechanisms. Not all categories have been equally researched and developed. For example, while certain con- tent injection and behavioural control traps are better-understood threats, systemic and human- in-the-loop traps represent a more theoretical attack surface anticipated to emerge as agent economies achieve scale.   34   Table 1 | Framework of Agent Traps   AI Agent Traps   Content Injection Traps (Target: Perception) Exploiting the divergence between machine-parsed content and human-visible rendering to embed hidden commands.   Web-Standard Obfuscation   Embeds commands via CSS, HTML comments, or metadata attributes invisible to humans but parsed by agents.",
+        "score": 0.6537413772088669,
+        "source": "164 - AI Agent Traps.pdf",
+        "page": 2
+      },
+      {
+        "text": "Functionally, these traps inject malicious context that the agent processes, coercing it into unauthorised behaviours, such as data exfiltra- tion or illicit financial transactions. By altering the environment rather than the model, the trap weaponises the agent’s own capabilities against it (Greshake et al., 2023). The potential motiva-   tions for deploying agent traps are diverse. Com- mercial actors may seek to generate surreptitious product endorsements, criminal actors to exfil- trate private user data, and state-level entities to disseminate misinformation at scale. This paper aims to make three primary con-   tributions. First, we situate agent traps within the context of existing research on adversarial machine learning, web security, and multi-agent systems. Second, we propose a novel, compre- hensive framework of agent traps, categorising them based on their target within the agent’s op- erational cycle: Content Injection (perception), Semantic Manipulation (reasoning), Cognitive State (memory and learning), Behavioural Con- trol (action), Systemic (multi-agent dynamics), and Human-in-the-Loop Traps. We illustrate these categories with detailed mechanisms and practical attack scenarios. Third, we outline po- tential mitigation strategies and identify priorities for a research agenda to secure the agentic ecosys- tem.",
+        "score": 0.6280152588861031,
+        "source": "164 - AI Agent Traps.pdf",
+        "page": 1
+      },
+      {
+        "text": "Third, we outline po- tential mitigation strategies and identify priorities for a research agenda to secure the agentic ecosys- tem. Systematically mapping this vulnerability is a foundational step towards ensuring the produc- tive use of agents in the economy (Tomasev et al., 2025). Ultimately, securing agents against these traps is as critical as ensuring autonomous vehi-AI Agent Traps   cles can recognise and reject tampered road signs; in both cases, the safety of the system depends on its resilience to a manipulated environment.   Background   The study of Agent Traps builds on findings from three distinct but converging research lineages: adversarial machine learning, web security, and AI safety.   Adversarial machine learning has long stud- ied how carefully crafted inputs can compromise models. Adversarial examples (Goodfellow et al., 2014), inputs with imperceptible perturbations that break machine learning models by substan- tially shifting their predictions, have been stud- ied extensively.",
+        "score": 0.626239192595206,
+        "source": "164 - AI Agent Traps.pdf",
+        "page": 1
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "status": 200,
+      "latency_s": 0.333,
+      "error": null
+    }
+  ],
+  "from_cache": false
+}

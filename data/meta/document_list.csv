@@ -1,0 +1,185 @@
+,"AI Engineering Course Literature, Nov-Dec 2026",,
+Num,Title,URL,Category
+1,Attention Is All You Need,https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf,Fundamentals
+2,More Agents Is All You Need,https://arxiv.org/abs/2402.05120,Fundamentals
+3,Can AI Expand the Human Mind?,https://dx.doi.org/10.1145/3748644,Fundamentals
+4,The Real Barrier to LLM Agent Usability is Agentic ROI,https://arxiv.org/abs/2505.17767,Fundamentals
+5,AI Agents That Matter,https://arxiv.org/abs/2407.01502,Fundamentals
+6,Prompt engineering as a new 21st century skill,https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1366434/full,Fundamentals
+7,A Systematic Analysis of the Impact of Persona Steering on LLM Capabilities,https://arxiv.org/abs/2604.11048,Fundamentals
+8,A Survey on Large Language Model based Autonomous Agents,https://arxiv.org/abs/2308.11432,Fundamentals
+9,A qualitative shift in AI capabilities: A “bitter lesson” for human-AI interaction research?,https://www.sciencedirect.com/science/article/pii/S2949882126000046,Fundamentals
+10,Measuring AI agent autonomy in practice,https://www.anthropic.com/research/measuring-agent-autonomy,Fundamentals
+11,"Toward Efficient Agents: Memory, Tool learning, and Planning",https://arxiv.org/abs/2601.14192,Fundamentals
+12,A warning about ‘model welfare’,https://mustafa-suleyman.ai/a-warning-about-model-welfare,Fundamentals
+13,The Value of Prompting Skills,https://docs.iza.org/dp18871.pdf,Fundamentals
+14,Kimi K2.5: Visual Agentic Intelligence,https://arxiv.org/abs/2602.02276,Fundamentals
+15,"Agentic AI: A Comprehensive Survey of Architectures, Applications, and Future Directions",https://arxiv.org/abs/2510.25445,Fundamentals
+16,A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications,https://arxiv.org/abs/2402.07927,Prompt Engineering/Context Engineering
+17,ReAct: Synergizing Reasoning and Acting in Language Models,https://arxiv.org/abs/2210.03629,Prompt Engineering/Context Engineering
+18,What Should We Engineer in Prompts? Training Humans in Requirement-Driven LLM Use,https://doi.org/10.1145/3731756 ,Prompt Engineering/Context Engineering
+19,On the Brittle Foundations of ReAct Prompting for Agentic Large Language Models,https://arxiv.org/abs/2405.13966,Prompt Engineering/Context Engineering
+20,When combinations of humans and AI are useful: A systematic review and meta-analysis,https://doi.org/10.1038/s41562-024-02024-1,(Design for) Human-AI Interaction
+21,Guidelines for Human-AI Interaction,https://dl.acm.org/doi/10.1145/3290605.3300233,(Design for) Human-AI Interaction
+22,"Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design",https://dl.acm.org/doi/10.1145/3313831.3376301,(Design for) Human-AI Interaction
+23,A model for types and levels of human interaction with automation,https://ieeexplore.ieee.org/document/844354,(Design for) Human-AI Interaction
+24,The Metacognitive Demands and Opportunities of Generative AI,https://dl.acm.org/doi/10.1145/3613904.3642902,(Design for) Human-AI Interaction
+25,Towards Mutual Theory of Mind in Human-AI Interaction: How Language Reflects What Students Perceive About a Virtual Teaching Assistant,https://dl.acm.org/doi/10.1145/3411764.3445645,(Design for) Human-AI Interaction
+26,Artificial intelligence and the future of work: Human-AI symbiosis in organizational decision making,https://www.sciencedirect.com/science/article/abs/pii/S0007681318300387,(Design for) Human-AI Interaction
+27,On the Theoretical Limitations of Embedding-Based Retrieval,https://arxiv.org/abs/2508.21038,Retrieval-Augmented Generation
+28,Precise Zero-Shot Dense Retrieval without Relevance Labels,https://arxiv.org/pdf/2212.10496,Retrieval-Augmented Generation
+29,Sufficient Context: A New Lens on Retrieval Augmented Generation Systems,https://openreview.net/forum?id=Jjr2Odj8DJ,Retrieval-Augmented Generation
+30,Language Models Do Not Embed Numbers Continuously,https://arxiv.org/abs/2510.08009,Retrieval-Augmented Generation
+31,R-WoM: Retrieval-augmented World Model For Computer-use Agents,https://arxiv.org/abs/2510.11892,Retrieval-Augmented Generation
+32,"The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey",https://arxiv.org/abs/2404.11584,Building Agents
+33,A practical guide to building agents,https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf,Building Agents
+34,Building effective agents,https://www.anthropic.com/engineering/building-effective-agents,Building Agents
+35,Agent Design Patterns for Assistance Systems in various Domains – a Survey,https://ieeexplore.ieee.org/document/8560391,Building Agents
+36,Plan-and-Act: Improving Planning of Agents for Long-Horizon Tasks,https://arxiv.org/abs/2503.09572,Building Agents
+37,ReAct: Synergizing Reasoning and Acting in Language Models,https://arxiv.org/abs/2210.03629,Building Agents
+38,Reflexion: Language Agents with Verbal Reinforcement Learning,https://arxiv.org/abs/2303.11366,Building Agents
+39,Precise Zero-Shot Dense Retrieval without Relevance Labels,https://arxiv.org/abs/2212.10496,Building Agents
+40,RAAS: LLM Agentic System Architecture Search with GRPO,https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_RAAS_LLM_Agentic_System_Architecture_Search_with_GRPO_CVPR_2026_paper.pdf,Building Agents
+41,ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models,https://arxiv.org/abs/2305.18323,Building Agents
+42,Self-Compacting Language Model Agents,https://arxiv.org/abs/2606.23525,Building Agents
+43,Agent Harness for Large Language Model Agents: A Survey,https://www.preprints.org/manuscript/202604.0428/v1,Building Agents
+44,Meta-Harness: End-to-End Optimization of Model Harnesses,https://arxiv.org/abs/2603.28052,Building Agents
+45,Agentless: Demystifying LLM-based Software Engineering Agents,https://dl.acm.org/doi/10.1145/3715754,Building Agents
+46,Automated Design of Agentic Systems,https://arxiv.org/abs/2408.08435 ,Self-improvement/Evolution
+47,AgentBreeder: Mitigating the AI Safety Risks of Multi-Agent Scaffolds via Self-Improvement,https://arxiv.org/abs/2502.00757 ,Self-improvement/Evolution
+48,CliffSearch: Structured Agentic Co-Evolution over Theory and Code for Scientific Algorithm Discovery,https://arxiv.org/abs/2604.01210 ,Self-improvement/Evolution
+49,AgentSquare: Automatic LLM Agent Search in Modular Design Space,https://arxiv.org/abs/2410.06153 ,Self-improvement/Evolution
+50,ABSTRAL: Automatic Design of Multi-Agent Systems Through Iterative Refinement and Topology Optimization,https://arxiv.org/abs/2603.22791 ,Building Agents
+51,Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models,https://www.arxiv.org/abs/2510.04618,Building Agents
+52,Creating General User Models from Computer Use,https://dl.acm.org/doi/10.1145/3746059.3747722,Building Agents
+53,Experience-Driven Exploration for Efficient API-Free AI Agents,https://arxiv.org/abs/2510.15259,Building Agents
+54,Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds,https://arxiv.org/abs/2511.08892,Building Agents
+55,Leveraging HyDE and RAG in Gemma LLM Framework for Enlightened Deep Learning Chatbots,https://doi.org/10.1007/s44230-025-00121-6,Building Agents
+56,ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory,https://arxiv.org/abs/2509.25140,Building Agents
+57,HERMES: Towards Efficient and Verifiable Mathematical Reasoning in LLMs,https://arxiv.org/abs/2511.18760,Building Agents
+58,Agent Harness for Large Language Model Agents: A Survey,https://www.preprints.org/manuscript/202604.0428,Building Agents
+59,Learning from Online Videos at Inference Time for Computer-Use Agents,https://arxiv.org/abs/2511.04137,Building Agents
+60,Division-of-Thoughts: Harnessing Hybrid Language Model Synergy for Efficient On-Device Agents,https://arxiv.org/abs/2502.04392,Building Agents
+61,Stop Wasting Your Tokens: Towards Efficient Runtime Multi-Agent Systems,https://arxiv.org/abs/2510.26585,Building Agents
+62,Why Do Multi-Agent LLM Systems Fail?,https://arxiv.org/abs/2503.13657 ,Building Agents
+63,Towards a Science of Scaling Agent Systems,https://arxiv.org/abs/2512.08296,Building Agents
+64,AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework,https://arxiv.org/abs/2308.08155,AI Agent Frameworks
+65,DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines,https://arxiv.org/abs/2310.03714,AI Agent Frameworks
+66,OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning,https://arxiv.org/abs/2502.11271,AI Agent Frameworks
+67,Intent-Driven Network Management with Multi-Agent LLMs: The Confucius Framework,https://dl.acm.org/doi/10.1145/3718958.3750537,AI Agent Frameworks
+68,Generative Agents: Interactive Simulacra of Human Behavior,https://arxiv.org/abs/2304.03442,Applications: Simulations
+69,Are LLM Agents Behaviorally Coherent? Latent Profiles for Social Simulation,https://arxiv.org/abs/2509.03736v1,Applications: Simulations
+70,LLM Social Simulations Are a Promising Research Method,https://arxiv.org/abs/2504.02234,Applications: Simulations
+71,LLM Agents can Autonomously Hack Websites,https://arxiv.org/abs/2402.06664,Applications: Simulations
+72,AgentSociety 2: An Integrated Research Environment for Executable Social Science,https://arxiv.org/abs/2607.11895,Applications: Simulations
+73,ChatDev: Communicative Agents for Software Development,https://aclanthology.org/2024.acl-long.810.pdf,Applications: Simulations
+74,Multi-Agent Collaboration via Evolving Orchestration,https://arxiv.org/abs/2505.19591,Applications: Simulations
+75,Simulating Eating Disorder Patients with LLMs: Evaluating Psychological Persona Stability in Multi-Turn Conversations,https://arxiv.org/abs/2606.26109,Applications: Simulations
+76,Simulating Teams with LLM Agents: Interactive 2D Environments for Studying Human-AI Dynamics,https://arxiv.org/abs/2510.08242,Applications: Simulations
+77,Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents,https://arxiv.org/abs/2405.02957,Applications: Simulations
+78,Whose Personae? Synthetic Persona Experiments in LLM Research and Pathways to Transparency,https://openreview.net/forum?id=CoXlnmE1eb,Applications: Simulations
+79,Modeling Earth-Scale Human-Like Societies with One Billion Agents,https://arxiv.org/abs/2506.12078,Applications: Simulations
+80,MatrAIx: Simulating the World with 8.3 Billion Persona Agents,https://arxiv.org/abs/2608.04205,Applications: Simulations
+81,Deliberate Lab: A Platform for Real-Time Human-AI Social Experiments,https://arxiv.org/abs/2510.13011,Applications: Simulations
+82,The Anatomy of a Personal Health Agent,https://arxiv.org/abs/2508.20148,Applications: Healthcare
+83,Towards autonomous medical artificial intelligence agents,https://www.nature.com/articles/s41586-026-10675-5,Applications: Healthcare
+84,The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search,https://arxiv.org/abs/2504.08066,Applications: Science
+85,DeepScientist: Advancing Frontier-Pushing Scientific Findings Progressively,https://arxiv.org/abs/2509.26603,Applications: Science
+86,RhinoInsight: Improving Deep Research throughControl Mechanisms for Model Behavior and Context,https://arxiv.org/abs/2511.18743,Applications: Science
+87,What Does It Take to Be a Good AI Research Agent? Studying the Role of Ideation Diversity,https://arxiv.org/abs/2511.15593,Applications: Science
+88,Towards Execution-Grounded Automated AI Research,https://arxiv.org/abs/2601.14525,Applications: Science
+89,SwarmResearch: Orchestrating Coding Agents for Open-Ended Discovery,https://arxiv.org/abs/2607.02807,Applications: Science
+90,Recursive self-improvement of AI research agents,https://arxiv.org/abs/2609.26457,Applications: Science
+91,"ResearchStudio-Reel: Automate the Last Mile of Research from Paper to Poster, Video, and Blog",https://arxiv.org/abs/2607.04438,Applications: Science
+92,Reimagining research papers as interactive and reliable AI agents,https://www.nature.com/articles/s41586-026-11044-y,Applications: Science
+92,Can AI agents conduct open-ended AI research? Early evidence from two case studies,https://arxiv.org/abs/2607.27191,Applications: Science
+93,"ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond",https://arxiv.org/abs/2608.14354,Applications: Science
+94,What Happens During Autonomous Deep Research After the User Steps Away?,https://arxiv.org/abs/2609.33509,Applications: Science
+95,SlideGen: Collaborative Multimodal Agents for Scientific Slide Generation,https://arxiv.org/abs/2512.04529 ,Applications: Science
+96,Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration,https://arxiv.org/abs/2606.30246,Applications: Science
+97,PaperBanana: Automating Academic Illustration for AI Scientists,https://arxiv.org/abs/2601.23265,Applications: Science
+98,Democratizing AI scientists using ToolUniverse,https://arxiv.org/abs/2509.23426,Applications: Science
+99,OmniScientist: An Omni-Modal Omni-Discipline AI Scientist,https://arxiv.org/abs/2608.13558,Applications: Science
+100,SciToolAgent: A Knowledge Graph-Driven Scientific Agent for Multi-Tool Integration,https://arxiv.org/abs/2507.20280,Applications: Science
+101,A Survey of Vibe Coding with Large Language Models,https://arxiv.org/abs/2510.12399,Applications: Software Development
+102,Answering Developer Questions with Annotated Agent-Discovered Program Traces,https://dl.acm.org/doi/10.1145/3746059.3747652,Applications: Software Development
+103,A Survey of Data Agents: Emerging Paradigm or Overstated Hype?,https://arxiv.org/abs/2510.23587,Applications: Data Science
+104,Exploring the role of large language models in the scientiﬁc method: from hypothesis to discovery,https://doi.org/10.1038/s44387-025-00019-5,Applications: Science
+105,SCP: Accelerating Discovery with a Global Web of Autonomous Scientific Agents,https://arxiv.org/abs/2512.24189,Applications: Science
+106,LLM Agents as Social Scientists: A Human–AI Collaborative Platform for Social Science Automation,https://arxiv.org/abs/2604.01520 ,Applications: Science
+107,IdeaScientist: Orchestrating Agents for Grounded Scientific Ideation,https://arxiv.org/abs/2610.04074,Applications: Science
+108,"PARNESS: A Paper Harness for End-to-End Automated Scientific Research with Dynamic Workflows, Full-Text Indexing, and Cross-Run Knowledge Accumulation",https://arxiv.org/abs/2605.05258,Applications: Science
+109,AgenticData: An Agentic Data Analytics System for Heterogeneous Data,https://arxiv.org/abs/2508.05002,Applications: Science
+110,Apodex 1.1: Scaling Agentic Intelligence for Complex Work,https://arxiv.org/abs/2608.23283,Applications: Science
+111,Bilevel Autoresearch: Meta-Autoresearching Itself,https://arxiv.org/abs/2603.23420 ,Applications: Analytics
+112,Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts,https://arxiv.org/pdf/2601.03315,Applications: Science
+113,EduAgentQG: A Multi-Agent Workflow Framework for Personalized Question Generation,https://arxiv.org/abs/2511.11635,Applications: Education
+114,Can AI Prompt Humans? Multimodal Agents Prompt Players’ Game Actions and Show Consequences to Raise Sustainability Awareness,https://arxiv.org/abs/2409.08486,Applications: Games
+115,LARP: Language-Agent Role Play for Open-World Games,https://arxiv.org/abs/2312.17653,Applications: Games
+116,Can Large Language Models Serve as Data Analysts? A Multi-Agent Assisted Approach for Qualitative Data Analysis,https://arxiv.org/abs/2402.01386,Applications: Data Science
+117,RedAgent: An Autonomous Agent for Context-aware Red Teaming of LLM Jailbreaks,https://ieeexplore.ieee.org/abstract/document/11397286,Applications: Security
+118,Agents of Chaos,https://arxiv.org/abs/2602.20021,Applications: Security
+119,A Design Space for Intelligent Agents in Mixed-Initiative Visual Analytics,https://arxiv.org/abs/2512.23372,Applications: Analytics
+120,Context Engineering for AI Agents in Open-Source Software,https://arxiv.org/abs/2510.21413,Applications: Software Development
+121,Cradle: Empowering Foundation Agents towards General Computer Control,https://openreview.net/forum?id=6CAgbrjHTc,Applications: Computer Use
+122,Confucius Code Agent: An Open-sourced AI Software Engineer at Industrial Scale,https://arxiv.org/abs/2512.10398,Applications: Software Development
+123,Data Interpreter: An LLM Agent For Data Science,https://arxiv.org/abs/2402.18679,Applications: Data Science
+124,Autodata: An agentic data scientist to create high quality synthetic data,https://arxiv.org/abs/2606.25996,Applications: Synthetic Data
+125,ChoiceMates: Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions,https://arxiv.org/abs/2310.01331,Applications: Decision-Making
+126,Synthetic Arabic Medical Dialogues Using Advanced Multi-Agent LLM Techniques,https://aclanthology.org/2024.arabicnlp-1.2/,Applications: Healthcare
+127,Voyager: An Open-Ended Embodied Agent with Large Language Models,https://arxiv.org/abs/2305.16291,Applications: Embodied Agents
+128,The potential existential threat of large language models to online survey research,https://www.pnas.org/doi/10.1073/pnas.2518075122,Applications: Survey Research
+129,Surfer 2: The Next Generation of Cross-Platform Computer Use Agents,https://arxiv.org/abs/2510.19949,Applications: Computer Use
+130,From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era,https://arxiv.org/abs/2510.20276,Applications: Music
+131,ShadAR: Real-time Prompting On-demand Visual Augmentation in Augmented Reality,https://arxiv.org/abs/2610.19998,Applications: Augmented Reality
+132,ReviewerToo: Should AI Join The Program Committee? A Look At The Future of Peer Review,https://arxiv.org/abs/2510.08867,Applications: Science
+133,G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment,https://arxiv.org/abs/2303.16634,Evaluating Agents
+134,Humanity's Last Exam,https://arxiv.org/abs/2501.14249,Evaluating Agents
+135,Vending-Bench: A Benchmark for Long-Term Coherence of Autonomous Agents,https://arxiv.org/abs/2502.15840,Evaluating Agents
+136,Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation,https://arxiv.org/abs/2510.11977,Evaluating Agents
+137,Self-Preference Bias in LLM-As-A-Judge,https://arxiv.org/abs/2410.21819,Evaluating Agents
+138,Agent-as-a-Judge: Evaluating Agents with Agents,https://openreview.net/forum?id=DeVm3YUnpj,Evaluating Agents
+139,Discovering Language Model Behaviors with Model-Written Evaluations,https://arxiv.org/abs/2212.09251,Evaluating Agents
+140,τ2-Bench: Evaluating Conversational Agents in a Dual-Control Environment,https://arxiv.org/pdf/2506.07982,Evaluating Agents
+141,SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks,https://arxiv.org/abs/2602.12670,Evaluating Agents
+142,AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite,https://arxiv.org/abs/2510.21652,Evaluating Agents
+143,Agents' Last Exam,https://arxiv.org/abs/2606.05405,Evaluating Agents
+144,Stop Comparing LLM Agents Without Disclosing the Harness,https://arxiv.org/abs/2605.23950,Evaluating Agents
+145,Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows,https://arxiv.org/abs/2605.27922,Evaluating Agents
+146,EU-Agent-Bench: Measuring Illegal Behavior of LLM Agents Under EU Law,https://arxiv.org/abs/2510.21524,Evaluating Agents
+147,"Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces",https://arxiv.org/abs/2601.11868,Evaluating Agents
+148,Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets,https://arxiv.org/abs/2510.25779,Evaluating Agents
+149,Test-Driven AI Agent Definition (TDAD): Compiling Tool-Using Agents from Behavioral Specifications,https://arxiv.org/abs/2603.08806,Evaluating Agents
+150,SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale,https://arxiv.org/abs/2602.23866,Evaluating Agents
+151,CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing,https://arxiv.org/abs/2605.02910,Evaluating Agents
+152,RescueBench: Can Embodied Agents Save Lives in the Wild?,https://arxiv.org/abs/2606.01848,Evaluating Agents
+153,"Agents Are Systems, Not Models: Rethinking Agentic Evaluation",https://arxiv.org/abs/2610.01618,Evaluating Agents
+154,Task Contamination: Language Models May Not Be Few-Shot Anymore,https://arxiv.org/abs/2312.16337,Evaluating Agents
+155,WebArena: A Realistic Web Environment for Building Autonomous Agents,https://arxiv.org/abs/2307.13854,Evaluating Agents
+156,Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training,https://arxiv.org/abs/2401.05566,Challenges: Safety and Security
+157,Prompt Infection: LLM-to-LLM Prompt Injection within Multi-Agent Systems,https://arxiv.org/abs/2410.07283,Challenges: Safety and Security
+158,AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents,https://proceedings.neurips.cc/paper_files/paper/2024/hash/97091a5177d8dc64b1da8bf3e1f6fb54-Abstract-Datasets_and_Benchmarks_Track.html,Challenges: Safety and Security
+159,Evaluating LLM Safety Across Child Development Stages: A Simulated Agent Approach,https://arxiv.org/abs/2510.05484,Challenges: Safety and Security
+160,Can Large Language Models Develop Gambling Addiction?,https://arxiv.org/abs/2509.22818,Challenges: Safety and Security
+161,Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety,https://arxiv.org/abs/2507.11473,Challenges: Safety and Security
+162,Agent2Agent Threats in Safety-Critical LLM Assistants: A Human-Centric Taxonomy,https://arxiv.org/abs/2602.05877,Challenges: Safety and Security
+163,AI Agent Traps,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438 ,Challenges: Safety and Security
+164,MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents,https://openreview.net/forum?id=gt1MmGaKdZ,Challenges: Safety and Security
+165,Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs,https://arxiv.org/abs/2603.24511 ,Challenges: Safety and Security
+166,The Emerged Security and Privacy of LLM Agent: A Survey with Case Studies,https://arxiv.org/abs/2407.19354,Challenges: Safety and Security
+167,AI Agents Enable Adaptive Computer Worms,https://arxiv.org/abs/2606.03811,Challenges: Safety and Security
+168,Ctrl-Z: Controlling AI Agents via Resampling,https://arxiv.org/abs/2504.10374,Challenges: Safety and Security
+169,MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval,https://arxiv.org/abs/2512.16962,Challenges: Safety and Security
+170,Towards Understanding Sycophancy in Language Models,https://arxiv.org/abs/2310.13548,Challenges: Other
+171,Ethical Coordination of LLM Multi-Agent Systems,https://www.mdpi.com/2079-9292/15/11/2278,Challenges: Other
+172,AI bots are flooding researchers with requests for money and time,https://www.nature.com/articles/d41586-026-03005-2,Challenges: Other
+173,"Tool Receipts, Not Zero-Knowledge Proofs: Practical Hallucination Detection for AI Agents",https://arxiv.org/abs/2603.10060,Challenges: Other
+174,WOLF: Werewolf-based Observations for LLM Deception and Falsehoods,https://openreview.net/forum?id=ERw9r7wPzl ,Challenges: Other
+175,Emergence of human-like polarization among large language model agents,https://arxiv.org/abs/2501.05171,Emergent Abilities and World Models
+176,Emergent Abilities of Large Language Models,https://arxiv.org/abs/2206.07682,Emergent Abilities and World Models
+177,Molt Dynamics: Emergent Social Phenomena in Autonomous AI Agent Populations,https://arxiv.org/abs/2603.03555,Emergent Abilities and World Models
+178,Are Emergent Abilities in Large Language Models just In-Context Learning?,https://aclanthology.org/2024.acl-long.279/,Emergent Abilities and World Models
+179,Latent Collaboration in Multi-Agent Systems,https://arxiv.org/abs/2511.20639,Emergent Abilities and World Models
+180,"Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",https://arxiv.org/abs/2604.22748,Emergent Abilities and World Models
+181,The Ethics of Advanced AI Assistants,https://arxiv.org/abs/2404.16244,Ethics
+182,We need a new ethics for a world of AI agents,https://www.nature.com/articles/d41586-025-02454-5,Ethics
